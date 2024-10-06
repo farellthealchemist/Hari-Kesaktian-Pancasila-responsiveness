@@ -20,14 +20,10 @@ header {
     text-align: center;
 }
 
-a:hover header h1 {
-    text-decoration: underline;
-}
-
 /* Main content styling */
 main {
     display: flex;
-    flex-wrap: wrap; /* Flex-wrap to ensure stacking on smaller screens */
+    flex-wrap: wrap;
     padding: 20px;
 }
 
@@ -46,11 +42,11 @@ h1 a:hover {
 
 a {
     text-decoration: none;
-    color: #0000EE; /* Warna Hijau Emerald */
+    color: #0000EE;
 }
 
 a:hover {
-    color: #551A8B; /* Warna Hijau yang Lebih Gelap saat di-hover */
+    color: #551A8B;
     text-decoration: underline;
 }
 aside {
