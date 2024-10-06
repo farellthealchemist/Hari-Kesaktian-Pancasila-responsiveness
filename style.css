@@ -20,6 +20,10 @@ header {
     text-align: center;
 }
 
+a:hover header h1 {
+    text-decoration: underline;
+}
+
 /* Main content styling */
 main {
     display: flex;
@@ -29,9 +33,25 @@ main {
 
 main p, li, ul {
     font-family: Arial, Helvetica, sans-serif;
+}
 
 
+h1 a {
+    color: #fff;
+}
 
+h1 a:hover {
+    color:#fff;
+}
+
+a {
+    text-decoration: none;
+    color: #0000EE; /* Warna Hijau Emerald */
+}
+
+a:hover {
+    color: #551A8B; /* Warna Hijau yang Lebih Gelap saat di-hover */
+    text-decoration: underline;
 }
 aside {
     width: 25%;
